@@ -255,26 +255,26 @@
                 </div>
 				<div class="row mt-50">
 					<div class="col-12">
-						<form>
+						<form action="https://getform.io/f/f04c3c33-9b35-4531-ad85-d54936583d1d" method="post">
                             <div class="contact-form form-border clearfix">
 								<div class="row">
-									<div class="col-md-4 col-12 form-field">
-										<input id="fname" type="text" placeholder="First Name*" class="form-control" name="fname">
+									<div class="col-md-4 col-12  ">
+										<input id="fname" type="text" placeholder="First Name*" class="form-control" name="fname" required>
 									</div>
 									<div class="col-md-4 col-12 form-field">
-										<input id="lname" type="text" placeholder="Last Name*" class="form-control" name="lname">
+										<input id="lname" type="text" placeholder="Last Name*" class="form-control" name="lname" required>
 									</div>
 									<div class="col-md-4 col-12 form-field">
-										<input type="email" placeholder="Email*" class="form-control" name="email">
+										<input type="email" placeholder="Email*" class="form-control" name="email" required>
 									</div>
 									<div class="col-md-4 col-12 form-field">
-										<input type="text" placeholder="Phone*" class="form-control" name="phone">
+										<input type="text" placeholder="Phone*" class="form-control" name="phone" required>
 									</div>
 									<div class="col-md-4 col-12 form-field">
-										<input type="datetime" placeholder="Date*" class="form-control" name="date">
+										<input type="datetime" placeholder="Date*" class="form-control" name="date" required>
 									</div>
 									<div class="col-md-4 col-12 form-field">
-										<input type="number" placeholder="People*" class="form-control" name="people">
+										<input type="number" placeholder="People*" class="form-control" name="people" required>
 									</div>
 									<div class="col-12 form-field submit-button text-center">
 										<button id="submit" name="submit" type="submit" value="Send" class="cs-button"> Send your message <i class="ti-comment-alt"></i> </button>
@@ -403,7 +403,7 @@
 				<div class="row">
                     <div class="col-12">
 						<div class="section-heading line center text-center">
-                            <h6 class="sub-heading theme-color">Chef</h6>
+                            <h6 class="sub-heading theme-color">Our</h6>
                             <h1 class="heading text-white">Menu</h1>
                         </div>
                     </div>
@@ -412,112 +412,115 @@
 					<div class="col-12">
                         <div class="tab round nav-center">
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active show" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true"> Breakfast</a>
+								<li class="nav-item">
+                                    <a class="nav-link active show" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true"> Starter</a>
+                                </li>
+
+                                 <li class="nav-item">
+                                    <a class="nav-link" id="soup-tab" data-toggle="tab" href="#soup" role="tab" aria-controls="soup" aria-selected="false"> Vegetarian Sides </a>
+									
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="soup-tab" data-toggle="tab" href="#soup" role="tab" aria-controls="soup" aria-selected="false"> Soup </a>
+                                    <a class="nav-link" id="grill-tab" data-toggle="tab" href="#grill" role="tab" aria-controls="grill" aria-selected="false"> Meat Entrees </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="grill-tab" data-toggle="tab" href="#grill" role="tab" aria-controls="grill" aria-selected="false"> Grill </a>
+                                    <a class="nav-link" id="pasta-tab" data-toggle="tab" href="#pasta" role="tab" aria-controls="pasta" aria-selected="false"> Group Dinning Combo </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pasta-tab" data-toggle="tab" href="#pasta" role="tab" aria-controls="pasta" aria-selected="false"> Pasta </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="pizza-tab" data-toggle="tab" href="#pizza" role="tab" aria-controls="pizza" aria-selected="false"> Pizza </a>
+                                    <a class="nav-link" id="pizza-tab" data-toggle="tab" href="#pizza" role="tab" aria-controls="pizza" aria-selected="false"> Desserts</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="drink-tab" data-toggle="tab" href="#drink" role="tab" aria-controls="drink" aria-selected="false"> Drink </a>
                                 </li>
                             </ul>
+							<!-- starter -->
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade active show" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
 									<div class="row mt-50">
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
-													<img src="images/menu-dish/dish-1.png" class="img-fluid" alt="" />
+													<img src="images/menu-dish/salad.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Alvarado</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">HOUSE SALAD</h4>
+													<p>Fresh Lettuce, Tomatoes, and Onion Tosssed in Olive Oil and Vinegar</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$5.99</p>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
-													<img src="images/menu-dish/dish-2.png" class="img-fluid" alt="" />
+													<img src="images/menu-dish/sambusa.jpg" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Douglas</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">VEGGIE SAMBUSA</h4>
+													<p>Deep Fired Pastry Shell Filled With Lentils, Green Chili, Onions aand Herbs</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$2.49    3/5.99</p>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
-													<img src="images/menu-dish/dish-1.png" class="img-fluid" alt="" />
+													<img src="images/menu-dish/sambusa.jpg" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Berkeley</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">BEEF SAMBUSA</h4>
+													<p>Deep Fried Pastry Shell Filled Well Seasoned Ground Beef and Onions</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$2.99   3/7.99</p>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
-													<img src="images/menu-dish/dish-2.png" class="img-fluid" alt="" />
+													<img src="images/menu-dish/singe.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Americana</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">SINGE KARYA</h4>
+													<p>Jalapeno Pepper Stuffed With Finely Minced Jalapeno, Tomato and Onions</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$1.75</p>
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6 col-12">										
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-3.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Bonie Brae</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+													<h4 class="text-white f-w6">VEGETARIAN SIDES</h4>
+													<p>Served On Top of a Round Injera Along With Additional Injera On The Side. Vegetarian Items Can Be Combined With Any Meat Entrees.</p>
 													<div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -528,8 +531,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-4.png" class="img-fluid" alt="" />
@@ -547,8 +550,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
@@ -566,8 +569,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-6.png" class="img-fluid" alt="" />
@@ -585,108 +588,125 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
+										</div> -->
 										
 									</div>
                                 </div>
+								<!-- Vegetarian sides -->
                                 <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab">
-                                    <div class="row mt-50">
-										<div class="col-md-6 col-12">										
+                                    <div class="row mt-50"> 
+										   
+										<h5 style="color: silver;">Served On Top of a Round Injera Along With Additional Injera On The Side.
+ Vegetarian Items Can Be Combined With Any Meat Entrees.</h5>
+										<br/>
+										<br/>
+
+										<div class="col-md-6 col-12">	
+																				
 											<div class="feature-txt fd-menu left-icon">
-												<div class="feature-icon">
+												<!-- <div class="feature-icon">
 													<img src="images/menu-dish/dish-9.png" class="img-fluid" alt="" />
-												</div>
+												</div> -->
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Salmon in chocolate</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">A  LA  CARTE</h4>
+													<p>Choice Of Any Vegetarian Item As A Side Dish</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$3.75</p>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
-												<div class="feature-icon">
+												<!-- <div class="feature-icon">
 													<img src="images/menu-dish/dish-10.png" class="img-fluid" alt="" />
-												</div>
+												</div> -->
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Cero Gordo</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">VEGGIE COMBO 5</h4>
+													<p>Any 5 Items Of Your Choice </p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$14.99</p>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
-												<div class="feature-icon">
+												<!-- <div class="feature-icon">
 													<img src="images/menu-dish/dish-11.png" class="img-fluid" alt="" />
-												</div>
+												</div> -->
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Cheese cake</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">VEGGIE COMBO 7</h4>
+													<p>Any 7 Items Of Your Choice</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$16.99</p>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
-												<div class="feature-icon">
+												<!-- <div class="feature-icon">
 													<img src="images/menu-dish/dish-12.png" class="img-fluid" alt="" />
-												</div>
+												</div> -->
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Bonie Brae</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">VEGGIE COMBO 9</h4>
+													<p>Any 9 Items Of Your Choice</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$19.99</p>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
-												<div class="feature-icon">
+												<!-- <div class="feature-icon">
 													<img src="images/menu-dish/dish-1.png" class="img-fluid" alt="" />
-												</div>
+												</div> -->
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Americana</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">VEGEEIS</h4>
+													<p>Collard Greens</p>
+													<p>Spicy Split Red Lentils</p>
+													<p>Mild Lentils</p>
+													<p>Cabbage With Carrots & Potatoes</p>
+													<p>Spicy Potatoes</p>
+													<p>Beets</p>
+													<p>Tomato & Onions Salad</p>
+													<p>Yellow Split Peas</p>
+													<p>Shiro (Chickpea Sauce)</p>
+
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
 													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p> -->
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6 col-12">										
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-2.png" class="img-fluid" alt="" />
@@ -742,27 +762,34 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>										
+										</div>										 -->
 									</div>
                                 </div>
+								<!-- Meat entrees -->
                                 <div class="tab-pane fade" id="grill" role="tabpanel" aria-labelledby="grill-tab">
                                     <div class="row mt-50">
+
+										<h5 style="color: silver;">Entrees Are Served With a House Salad & Injera. 100% Teff Injera (Gluten Free) Maybe Substituted Upon Request For $3.
+											<br/> Extra Order Of Regular Injera is $1.50 Per Serving </h5>
+
+												<br/>
+												<br/>
 										<div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Alvarado</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">TIBS FIR-FIR</h4>
+													<p>Shredded Pieces Of Injera Cooked Into a Savory Red Stew Made Of Sliced Beef Seasoned With Berbere Along With Onions And Diced Fresh Tomatoes All Saut'eed In Ethiopia Butter.</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$15.99</p>
 												</div>
 											</div>
 										</div>
@@ -772,16 +799,16 @@
 													<img src="images/menu-dish/dish-6.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Douglas</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">ASA DULET (TILAPIA)</h4>
+													<p>Tilapia Seasoned With Mitmita Sau'teed With Caramalized Onions, Garlic, Diced Tomatoes, And Jalapeno Peppers In Ethiopian Butter.</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$16.99</p>
 												</div>
 											</div>
 										</div>
@@ -791,15 +818,15 @@
 													<img src="images/menu-dish/dish-7.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Berkeley</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">DORO WOT</h4>
+													<p>A Spicy Chicken Stew Made With a Tender Chicken Leg Slow-Cooked In a Spicy Berbere Sauce With Onions, Garlic, Ginger and Ethiopian Butter Served With a Hard Boiled Egg And Ayib </p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
+													</div> -->
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
@@ -810,16 +837,16 @@
 													<img src="images/menu-dish/dish-8.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Americana</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">GOMEN BE SIGA</h4>
+													<p>Marbled Cut Beef Stew Cooked With Chopped Collard Greens, Garlic and a Touch Of Butter.</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$17.99</p>
 												</div>
 											</div>
 										</div>
@@ -829,16 +856,16 @@
 													<img src="images/menu-dish/dish-9.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Bonie Brae</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">KEY WOT</h4>
+													<p>A Hot And Spicy Curry Stew Made With Chunks Of Lean Tender Beef Simmered In a Sauce Of Tomato, Onion, Garlic, Ginger, Turmeric, Butter.</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$16.99</p>
 												</div>
 											</div>
 										</div>
@@ -848,16 +875,16 @@
 													<img src="images/menu-dish/dish-10.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Cheese cake</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">ALICHA WOT</h4>
+													<p>Curry Stew Made With Chunks Of Lean Tender Beef Simmered In a Sauce Of Tomato, Onion, Garlic, Ginger, Turmeric and Butter. </p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$16.99</p>
 												</div>
 											</div>
 										</div>
@@ -867,16 +894,16 @@
 													<img src="images/menu-dish/dish-11.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Cero Gordo</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">50/50</h4>
+													<p>Coice Of 4 Veggies With a 1/2 Order Of Any Meat Entree Except Doro Wot.</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$17.99</p>
 												</div>
 											</div>
 										</div>
@@ -886,21 +913,119 @@
 													<img src="images/menu-dish/dish-12.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Salmon in chocolate</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">SPECIAL TIPS</h4>
+													<p>Tender Chunks Of Lamb, Chicken Or Beef Seasoned With Just a Touch Of Soy Sauce and Rosemary Cooked With Caramelized Onions, Garlic, Diced Tomatoes, and Jalapeno Peppers. </p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">Beef  $16.99 | Lamb  $18.99</p>
 												</div>
 											</div>
-										</div>										
+										</div>	
+										<div class="col-md-6 col-12">										
+											<div class="feature-txt fd-menu left-icon">
+												<div class="feature-icon">
+													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
+												</div>
+												<div class="feature-info">
+													<h4 class="text-white f-w6">LEGA TIBS</h4>
+													<p>Tender Chunks Of Beef Or Lamb Seasoned With Rosemary and Black Cardamon, Saut'eed In Butter With Onions, Garlic and Jalapeno Peppers. </p>
+													<!-- <div class="d-flex mt-10 text-warning">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-half"></i>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">Beef  $16.99 | Lamb  $18.99</p>
+													<!-- <p class="theme-color fs-20 f-w6 mt-15">$11.95</p> -->
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-12">										
+											<div class="feature-txt fd-menu left-icon">
+												<div class="feature-icon">
+													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
+												</div>
+												<div class="feature-info">
+													<h4 class="text-white f-w6">AWAZE TIBS</h4>
+													<p>Tender Chunks Of Beef Or Lamb Seasoned With a Special Berbere Sauce and Saut'eed In Butter With Onions, Garlic and Jalapeno Peppers.</p>
+													<!-- <div class="d-flex mt-10 text-warning">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-half"></i>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">Beef  $16.99 | Lamb  $18.99</p>
+													<!-- <p class="theme-color fs-20 f-w6 mt-15">$11.95</p> -->
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-12">										
+											<div class="feature-txt fd-menu left-icon">
+												<div class="feature-icon">
+													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
+												</div>
+												<div class="feature-info">
+													<h4 class="text-white f-w6">KITFO</h4>
+													<p>Ethiopian Take On Stake Tartare. Minced Extra Lean Raw Beef Seasoned With Mitmita, Select Herbs and Ethiopian Butter. Served Raw But Gently Warmed. </p>
+													<!-- <div class="d-flex mt-10 text-warning">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-half"></i>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$17.99</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-12">										
+											<div class="feature-txt fd-menu left-icon">
+												<div class="feature-icon">
+													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
+												</div>
+												<div class="feature-info">
+													<h4 class="text-white f-w6">KITFO SANDWICH</h4>
+													<p>Kitfo Served On Bread Mixed With Onion, Garlic Jalapeno Peppers, Butter, Cardamon and Mitmita</p>
+													<!-- <div class="d-flex mt-10 text-warning">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-half"></i>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$17.99</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-12">										
+											<div class="feature-txt fd-menu left-icon">
+												<div class="feature-icon">
+													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
+												</div>
+												<div class="feature-info">
+													<h4 class="text-white f-w6">SPECIAL KITFO (ONLY ON SATURDAY)</h4>
+													<p>Ethiopian Take On Steak Tartare. Minced Extra Lean Raw Beef Seasoned With Mitmita, Select Herbs and Butter With Home Made Cheese, Gomen and Kotcho. Served Raw but Gently Warmed.</p>
+													<!-- <div class="d-flex mt-10 text-warning">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-half"></i>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$17.99</p>
+												</div>
+											</div>
+										</div>									
 									</div>
                                 </div>
+								<!-- group dinning  -->
                                 <div class="tab-pane fade" id="pasta" role="tabpanel" aria-labelledby="pasta-tab">
                                     <div class="row mt-50">
 										<div class="col-md-6 col-12">										
@@ -909,16 +1034,16 @@
 													<img src="images/menu-dish/dish-1.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Alvarado</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">THE BALTIMORE (SUGGESTED FOR 2)</h4>
+													<p>Choice Of 9 Of Our Amazing Veggies Along With 1/2 Order Each Of Special Tibs & Alicha Wot (Mild) or Key Wot(Spicy). </p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$44.99</p>
 												</div>
 											</div>
 										</div>
@@ -928,20 +1053,20 @@
 													<img src="images/menu-dish/dish-2.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Douglas</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">THE TABOR (SUGGESTED FOR 3)</h4>
+													<p>Choice Of 9 Of Our Amazing Veggies Along With 1/2 Order Each Of Special Tibs and Alicha Wot (Mild) and Key Wot(Spicy).</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$54.99</p>
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6 col-12">										
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-1.png" class="img-fluid" alt="" />
@@ -959,8 +1084,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-2.png" class="img-fluid" alt="" />
@@ -978,8 +1103,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-3.png" class="img-fluid" alt="" />
@@ -997,8 +1122,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-4.png" class="img-fluid" alt="" />
@@ -1016,8 +1141,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
@@ -1035,8 +1160,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-6.png" class="img-fluid" alt="" />
@@ -1054,10 +1179,11 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
+										</div> -->
 										
 									</div>
                                 </div>
+								<!-- DESERTS -->
                                 <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
                                     <div class="row mt-50">
 										<div class="col-md-6 col-12">										
@@ -1066,16 +1192,16 @@
 													<img src="images/menu-dish/dish-9.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Salmon in chocolate</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">CARROT CAKE</h4>
+													<!-- <p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p> -->
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$4.00</p>
 												</div>
 											</div>
 										</div>
@@ -1085,16 +1211,16 @@
 													<img src="images/menu-dish/dish-10.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Cero Gordo</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">TARAMISO</h4>
+													<!-- <p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p> -->
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$4.00</p>
 												</div>
 											</div>
 										</div>
@@ -1104,26 +1230,26 @@
 													<img src="images/menu-dish/dish-11.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Cheese cake</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">BAKLAVA</h4>
+													<!-- <p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p> -->
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$3.00</p>
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6 col-12">										
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-12.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Bonie Brae</h4>
+													<h4 class="text-white f-w6">BAKLAVA</h4>
 													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
 													<div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
@@ -1135,8 +1261,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-1.png" class="img-fluid" alt="" />
@@ -1154,8 +1280,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-2.png" class="img-fluid" alt="" />
@@ -1173,8 +1299,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-3.png" class="img-fluid" alt="" />
@@ -1192,8 +1318,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-4.png" class="img-fluid" alt="" />
@@ -1211,9 +1337,10 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>										
+										</div>										 -->
 									</div>
-                                </div>
+                                </div> 
+								<!-- <!-- drinks -->
                                 <div class="tab-pane fade" id="drink" role="tabpanel" aria-labelledby="drink-tab">
                                     <div class="row mt-50">
 										<div class="col-md-6 col-12">										
@@ -1222,16 +1349,28 @@
 													<img src="images/menu-dish/dish-5.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Alvarado</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">WATER</h4>
+													<p>Perrier</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$2.50</p>
+														<br/>
+
+
+													<p>Deer Park</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$1.50</p>
+													<br/>	
+
+
+													<p>Ambo (Ethiopian Mineral Water)</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$3.50</p>
+
+
 												</div>
 											</div>
 										</div>
@@ -1241,16 +1380,20 @@
 													<img src="images/menu-dish/dish-6.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Douglas</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">TEA</h4>
+													<p>Spicy Tea</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$2.00</p>
+													<br/>
+													<p>Ginger Tea</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$3.00</p>
+
 												</div>
 											</div>
 										</div>
@@ -1260,16 +1403,27 @@
 													<img src="images/menu-dish/dish-7.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Berkeley</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">JUICE</h4>
+													<p>Mango</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$2.50</p>
+													<br/>
+													<p>Guava</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$2.50</p>
+													<br/>
+													<p>Cranberry</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$2.50</p>
+													<br/>
+													<p>Orange</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$2.50</p>
+													<br/>
+
 												</div>
 											</div>
 										</div>
@@ -1279,20 +1433,33 @@
 													<img src="images/menu-dish/dish-8.png" class="img-fluid" alt="" />
 												</div>
 												<div class="feature-info">
-													<h4 class="text-white f-w6">Americana</h4>
-													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
-													<div class="d-flex mt-10 text-warning">
+													<h4 class="text-white f-w6">SOFT DRINK</h4>
+													<p>Coke</p>
+													<!-- <div class="d-flex mt-10 text-warning">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-half"></i>
-													</div>
-													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
+													</div> -->
+													<p class="theme-color fs-20 f-w6 mt-15">$3.00</p>
+													<br/>
+													<p>sprite</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$3.00</p>
+													<br/>
+													<p>Orange Fanta</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$3.00</p>
+													<br/>
+													<p>Pineapple</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$3.00</p>
+													<br/>
+													<p>Ginger Beer</p>
+													<p class="theme-color fs-20 f-w6 mt-15">$3.00</p>
+													<br/>
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6 col-12">										
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-9.png" class="img-fluid" alt="" />
@@ -1310,8 +1477,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-10.png" class="img-fluid" alt="" />
@@ -1329,8 +1496,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-11.png" class="img-fluid" alt="" />
@@ -1348,8 +1515,8 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 col-12">										
+										</div> -->
+										<!-- <div class="col-md-6 col-12">										
 											<div class="feature-txt fd-menu left-icon">
 												<div class="feature-icon">
 													<img src="images/menu-dish/dish-12.png" class="img-fluid" alt="" />
@@ -1367,7 +1534,7 @@
 													<p class="theme-color fs-20 f-w6 mt-15">$11.95</p>
 												</div>
 											</div>
-										</div>										
+										</div>										 -->
 									</div>
                                 </div>
                             </div>
@@ -1614,7 +1781,7 @@
                 </div>
                 <div class="row mt-50">
 					<div class="col-12">   
-                        <form class="mb-50" action="send_email.php" id="contact" name="contact" method="post">
+                        <form class="mb-50" action="send_email.php" id="contact" name="contact"  action="https://getform.io/f/f04c3c33-9b35-4531-ad85-d54936583d1d" method="post">
                             <div class="contact-form form-border clearfix">
                                 <div class="form-field">
                                     <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your Name" required>
